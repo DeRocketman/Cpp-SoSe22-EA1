@@ -47,9 +47,8 @@ public:
             cout << "Ihre Auswahl: ";
             cin >> userChoice;
 
-            if (userChoice > 3) {
-                cout << "Eingabe ist nicht gültig" << endl;
-                cout << "Weiter mit Eingabe" << endl;
+            if (userChoice == 0) {
+                cout << "Eingabe ist nicht gültig\n" << endl;
             } else if (userChoice == 1) {
                 printIceCreamMenu();
             } else if (userChoice == 2) {
